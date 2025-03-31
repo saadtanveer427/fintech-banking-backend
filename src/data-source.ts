@@ -5,10 +5,10 @@ import { config } from 'dotenv';
 config();
 export const dataSourceOptions: DataSourceOptions = {
   type: 'postgres',
-  host: process.env.DATABASE_HOST,
-  port: parseInt(process.env.DATABASE_PORT),
+  host: 'database-1.cchuga462du7.us-east-1.rds.amazonaws.com',
+  port: parseInt('5432'),
   username: 'postgres',
-  password: 'postgres',
+  password: 'I8HtR4ADJaL1JUyMXkcc',
   database: 'bankdb',
   entities: ['dist/**/*.entity.{ts,js}'],
   synchronize: true,
