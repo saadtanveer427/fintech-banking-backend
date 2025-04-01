@@ -14,7 +14,7 @@ export const dataSourceOptions: DataSourceOptions = {
   synchronize: true,
   migrations: ['dist/migrations/*.{ts,js}'],
   extra: {
-    ssl: false,
+    ssl: true,
   },
   namingStrategy: new SnakeNamingStrategy(),
   logging: false,
