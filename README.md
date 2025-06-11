@@ -10,5 +10,3 @@
 
 
    Postman collection and schema diagram files are also available above
-
-
